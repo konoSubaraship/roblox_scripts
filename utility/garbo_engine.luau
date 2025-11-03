@@ -1,3 +1,7 @@
+-- Decompiled with Medal's Decompiler. (Modified by SignalHub)
+-- Decompiled at: 11/2/2025, 6:11:04 PM
+-- Time elapsed: 64 milliseconds
+
 g_timeout = 30
 g_maxfinCnt = 100000
 g_startTime = 0
@@ -1579,7 +1583,6 @@ ResetGame = function() --[[ Name: ResetGame ]] --[[ Line: 1316 ]]
         v149 = v149 + 1
     end;
     v148 = v148 + 16
-    continue;
 end;
 Search = function(p160) --[[ Name: Search ]] --[[ Line: 1467 ]]
     local v161 = minEval
@@ -2591,7 +2594,7 @@ end;
 InitializeEval()
 ResetGame()
 return {
-    ["GetBestMoveFromFEN"] = function(_, p435, p436) 
+    ["GetBestMoveFromFEN"] = function(_, p435, p436) --[[ Name: GetBestMoveFromFEN ]] --[[ Line: 3022 ]]
         InitializeFromFen(p435)
         g_timeout = p436
         Search(8)

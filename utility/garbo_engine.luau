@@ -1,7 +1,3 @@
--- Decompiled with Medal's Decompiler. (Modified by SignalHub)
--- Decompiled at: 11/2/2025, 6:11:04 PM
--- Time elapsed: 64 milliseconds
-
 g_timeout = 30
 g_maxfinCnt = 100000
 g_startTime = 0

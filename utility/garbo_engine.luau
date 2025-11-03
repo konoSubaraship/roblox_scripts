@@ -2591,7 +2591,7 @@ end;
 InitializeEval()
 ResetGame()
 return {
-    ["GetBestMoveFromFEN"] = function(_, p435, p436) --[[ Name: GetBestMoveFromFEN ]] --[[ Line: 3022 ]]
+    ["GetBestMoveFromFEN"] = function(_, p435, p436) 
         InitializeFromFen(p435)
         g_timeout = p436
         Search(8)

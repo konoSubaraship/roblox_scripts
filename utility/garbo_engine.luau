@@ -10,7 +10,7 @@
 -- Very needed for scripting. Just could not find better.
 --
 
-getgenv().bind = bind32
+getgenv().band = band32
 
 g_timeout = 30;		-- can set maximum seconds for analysing
 g_maxfinCnt = 100000;	-- can set limit of moves to analyse

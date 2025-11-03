@@ -2594,10 +2594,10 @@ end;
 InitializeEval()
 ResetGame()
 return {
-    ["GetBestMoveFromFEN"] = function(_, p435, p436) --[[ Name: GetBestMoveFromFEN ]] --[[ Line: 3022 ]]
+    ["GetBestMoveFromFEN"] = function(_, p435, p436, depth) --[[ Name: GetBestMoveFromFEN ]] --[[ Line: 3022 ]]
         InitializeFromFen(p435)
         g_timeout = p436
-        Search(8)
+        Search(depth)
         if g_foundmove == 0 then
             return nil;
         else
